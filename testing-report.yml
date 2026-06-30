@@ -1,33 +1,34 @@
 
 ---
 - summary: "Успешный поиск товара по ключевому слову"
- 
+  status: pass
 
 - summary: "Успешный поиск товара по категории"
-
+  status: pass
 
 - summary: "Успешное применение фильтров"
-
+  status: pass
 
 - summary: "Успешный просмотр подробной информации о товаре"
-
+  status: pass
 
 - summary: "Успешное добавление товаров в корзину"
-
+  status: pass
 
 - summary: "Успешное переключение языка интерфейса"
-
+  status: pass
 
 - summary: "Проверка работы мобильной версии"
-
+  status: fail(for mobile)
 
 - summary: "Совместимость с последними версиями браузеров"
-  
+  status: pass
 
 - summary: "Неудачный поиск по ключевому слову"
-
+  status: pass
 
 - summary: "Проверка 'code injection'"
-
+  status: pass
 
 - summary: "Сохранение корзины в сессии браузера"
+  status: pass
