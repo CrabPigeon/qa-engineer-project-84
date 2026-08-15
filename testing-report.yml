@@ -49,7 +49,7 @@
   status: pass
   
 - summary: "Успешное оформление заказа"
-  status: pass
+  status: fail
   
 - summary: "Успешное удаление товара из корзины"
   status: pass
