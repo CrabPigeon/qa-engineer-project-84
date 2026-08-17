@@ -1,6 +1,7 @@
 test-cases:
 - summary: "Проверка работы мобильной версии"
   status: fail(for mobile)
+
 - summary: "Успешное оформление заказа"
   status: fail
 
