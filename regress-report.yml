@@ -1,7 +1,10 @@
 ---
+test-cases:
 - summary: "Проверка работы мобильной версии"
   status: fail(for mobile)
-
+- summary: "Успешное оформление заказа"
+  status: fail
+bugreports:
 - summary: |
     На мобильных разрешениях пропала панель фильтров, на узких экранах ломается вёрстка корзины
   environment: |
