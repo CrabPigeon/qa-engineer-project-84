@@ -24,3 +24,22 @@ bugreports:
     - На мобильных разрешениях полностью исчезла панель фильтров и категорий
     - На iPhone (390px) вёрстка каталога и корзины в целом стала лучше
     - На Samsung (360px) вёрстка корзины поехала
+
+- summary: |
+    По-прежнему при оформлении заказа в консоли появляется ошибка HTTP 500
+  environment: |
+    Google Chrome 151.0.7922.138 (Official Build) (64-bit)
+    OC Windows 10
+  steps-to-reproduce: |
+    1. Открыть сайт https://products-store-ru.hexlet.app/
+    2. Добавить любой товар в корзину
+    3. Перейти в корзину
+    4. Нажать кнопку Оформить заказ / Checkout
+    5. Открыть DevTools - Console
+  expected-result: |
+    Заказ оформляется без ошибок.
+    В консоли отсутствуют ошибки выполнения скриптов и HTTP запросов.
+    Появляется модальное окно с сообщением об успешном оформлении заказа.
+  actual-result: |
+    Появляется модальное окно Заказ успешно оформлен / Order placed successfully.
+    В консоли DevTools отображается ошибка: XHR POST https://products-store-v2.hexlet.app/api/orders [HTTP/2 500 150ms]
