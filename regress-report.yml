@@ -31,7 +31,7 @@ bugreports:
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт https://products-store-v2.hexlet.app/
     2. Добавить любой товар в корзину
     3. Перейти в корзину
     4. Нажать кнопку Оформить заказ / Checkout
@@ -43,3 +43,19 @@ bugreports:
   actual-result: |
     Появляется модальное окно Заказ успешно оформлен / Order placed successfully.
     В консоли DevTools отображается ошибка: XHR POST https://products-store-v2.hexlet.app/api/orders [HTTP/2 500 150ms]
+
+- summary: |
+    В фильтрах отображаются пустые значения: пустой чекбокс бренда и пустая строка в категориях
+  environment: |
+    Google Chrome 151.0.7922.138 (Official Build) (64-bit)
+    OC Windows 10
+  steps-to-reproduce: |
+    1. Открыть сайт https://products-store-v2.hexlet.app/
+    2. Посмотреть список категорий
+    3. Посмотреть список брендов
+  expected-result: |
+    В фильтрах категорий и брендов отображаются только реальные значения.
+    Пустых строк и пустых чекбоксов нет.
+  actual-result: |
+    - В списке брендов по-прежнему есть пустой чекбокс
+    - В списке категорий появилась пустая строка
