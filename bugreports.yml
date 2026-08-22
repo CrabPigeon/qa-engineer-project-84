@@ -4,9 +4,10 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
     Разрешения: iPhone 16 (393×852), Galaxy S25 (360×780) и другие мобильные
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт 
     2. Открыть DevTools - Device Toolbar
     3. Выбирать мобильное разрешение (iPhone 16 или Galaxy S25)
     4. Область с карточками товаров и левая панель поиска (панель поиска, категории и фильтры)
@@ -24,9 +25,10 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
     Разрешения: iPhone 16 (393×852), Galaxy S25 (360×780) и другие мобильные
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Включить Device Toolbar в DevTools
     3. Выбрать мобильное разрешение
     4. Добавить товары в корзину
@@ -42,8 +44,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Добавить любой товар в корзину
     3. Перейти в корзину
     4. Нажать кнопку Оформить заказ / Checkout
@@ -62,8 +65,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Область поиска и фильтров на левой панели
     3. Посмотреть доступные категории и бренды
     4. Нажать кнопку Next / Следующая
@@ -80,8 +84,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Посмотреть на любую карточку товара
     3. Числовое значение перед кнопкой Добавить
   expected-result: |
@@ -94,8 +99,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Найти фильтр по цене (поле 'От - До:') 
     3. Посмотреть доступные значения фильтра
   expected-result: |
@@ -109,8 +115,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Выбрать любой фильтр (категорию или бренд)
     3. Переключать страницы кнопкой Следующая / Next
   expected-result: |
@@ -124,8 +131,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Переключить язык интерфейса на русский
     3. Посмотреть названия категорий и описания товаров
   expected-result: |
@@ -138,8 +146,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Посмотреть переключатель языка в шапке
   expected-result: |
     Для каждого языка отображается соответствующая иконка (флаг + название языка).
@@ -152,8 +161,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Добавить в корзину товар, у которого есть скидка
     3. Открыть корзину
     4. Посмотреть цену за единицу, сумму по позиции и итоговую сумму
@@ -170,8 +180,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Найти товар со скидкой
     3. Посмотреть, размер скидки на странице товара
   expected-result: |
@@ -185,8 +196,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Открыть любую страницу товара
     3. Найти указание категории (оформлено как ссылка вида #категория)
     4. Нажать на ссылку
@@ -200,8 +212,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Добавить товары в корзину
     3. Перейти в корзину и нажать Оформить заказ / Checkout 
     4. Закрыть окно оформления
@@ -216,8 +229,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Добавить в корзину несколько товаров со скидкой (например с ценами 8.94 и 16.35)
     3. Открыть корзину и посмотреть итоговую сумму
   expected-result: |
@@ -230,8 +244,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Нажать мышкой кнопку Add to cart на любом товаре
     3. Не кликая в другое место, нажать Space или Enter на клавиатуре
   expected-result: |
@@ -245,8 +260,9 @@
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
+    Версия сайта https://products-store-ru.hexlet.app/
   steps-to-reproduce: |
-    1. Открыть сайт https://products-store-ru.hexlet.app/
+    1. Открыть сайт
     2. Посмотреть чек боксы брендов на левой панеле
   expected-result: |
     В списке брендов отображаются только реальные названия брендов с чекбоксами
