@@ -3,8 +3,8 @@
 
 ## О проекте
 Ручное тестирование интернет-магазина Hexlet Products Store
-- Первая версия(https://products-store-ru.hexlet.app/)
-- Вторая версия(https://products-store-v2-ru.hexlet.app/)
+- [Первая версия сайта](https://products-store-ru.hexlet.app/)
+- [Вторая версия сайта](https://products-store-v2-ru.hexlet.app/)
 
 ### Содержание файлов
 - **about.yml** — информация о тестировщике
