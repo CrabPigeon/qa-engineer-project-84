@@ -1,75 +1,75 @@
 ---
 - summary: "Успешный поиск товара по ключевому слову"
-  status: 
+  status: pass
  
 - summary: "Успешный поиск товара по категории"
-  status: 
+  status: pass
 
 - summary: "Успешная фильтрация товаров по нескольким фильтрам"
-  status: 
+  status: pass
 
 - summary: "Успешная фильтрация товаров по бренду"
-  status: 
+  status: pass
 
 - summary: "Успешная фильтрация товаров по цене"
-  status: 
+  status: fail
 
 - summary: "Успешная фильтрация товаров по наличию"
-  status: 
+  status: fail
 
 - summary: "Успешное добавление товаров в корзину"
-  status: 
+  status: pass
 
 - summary: "Успешное переключение языка интерфейса"
-  status: 
+  status: fail
 
 - summary: "Проверка работы мобильной версии"
-  status: 
+  status: fail (mobile)
 
 - summary: "Совместимость с последними версиями браузеров"
-  status: 
+  status: pass
 
 - summary: "Неудачный поиск по ключевому слову"
-  status: 
+  status: pass
 
 - summary: "Проверка 'code injection'"
-  status: 
+  status: pass
 
 - summary: "Сохранение корзины в сессии браузера"
-  status: 
+  status: pass
 
 - summary: "Успешное удаление товара из корзины"
-  status: 
+  status: pass
 
 - summary: "Успешное оформление заказа"
-  status: 
+  status: fail
 
 - summary: "Успешное продолжение выбора товаров из корзины"
-  status: 
+  status: pass
 
 - summary: "Отображение информации на странице товара"
-  status: 
+  status: pass
 
 - summary: "Отображение информации на карточке товара в каталоге"
-  status: 
+  status: fail
 
 - summary: "Отображение постраничного вывода без активных фильтров и категорий"
-  status: 
+  status: pass
 
 - summary: "Отображение постраничного вывода согласно выбранным фильтрам и категориям"
-  status: 
+  status: pass
 
 - summary: "Успешная проверка работы сайта без перезагрузки страницы"
-  status: 
+  status: fail
 
 - summary: "Успешная очистка корзины"
-  status: 
+  status: pass
 
 - summary: "Переход в категорию по хэштегу на странице товара"
-  status: 
+  status: pass
 
 - summary: "Закрытие окна оформления заказа"
-  status: 
+  status: fail
 
 bugreports:
 - summary: |
