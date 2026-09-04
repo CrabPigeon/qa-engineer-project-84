@@ -200,7 +200,7 @@ bugreports:
       Страница перезагружается, в Network появляется запрос document
 
   - summary: |
-    При сочетании фильтров фильтр цены не применяется
+      При сочетании фильтров фильтр цены не применяется
     environment: |
       Google Chrome 151.0.7922.138 (Official Build) (64-bit)
       ОС Windows 10
