@@ -117,88 +117,6 @@ bugreports:
     Скриншоты: screenshots/iphone-resolution-cart.png, screenshots/Samsung-resolution-kart.png
 
 - summary: |
-    При оформлении заказа в консоли появляется ошибка HTTP 500
-  environment: |
-    Google Chrome 151.0.7922.138 (Official Build) (64-bit)
-    OC Windows 10
-    Версия сайта https://products-store-v2.hexlet.app/
-  steps-to-reproduce: |
-    1. Открыть сайт
-    2. Добавить любой товар в корзину
-    3. Перейти в корзину
-    4. Нажать кнопку Оформить заказ / Checkout
-    5. Открыть DevTools - Console
-  expected-result: |
-    Заказ оформляется без ошибок
-    В консоли отсутствуют ошибки выполнения скриптов и HTTP запросов
-    Появляется модальное окно с сообщением об успешном оформлении заказа
-  actual-result: |
-    Появляется модальное окно Заказ успешно оформлен / Order placed successfully
-    В консоли DevTools отображается ошибка: XHR POST https://products-store-v2.hexlet.app/api/orders [HTTP/2 500 150ms]
-    Скриншоты: screenshots/post-500.png
-
-- summary: |
-    При переключении страниц фильтры по-прежнему меняются
-  environment: |
-    Google Chrome 151.0.7922.138 (Official Build) (64-bit)
-    OC Windows 10
-    Версия сайта https://products-store-v2.hexlet.app/
-  steps-to-reproduce: |
-    1. Открыть сайт
-    2. Посмтореть список категорий и брендов
-    3. Нажать Next / Следующая
-    4. Снова посмотреть фильтры
-  expected-result: |
-    Содержимое фильтров не меняется при переключении страниц
-  actual-result: |
-    При переходе на другую страницу список категорий и брендов изменяется
-
-- summary: |
-    Непонятное числовое значение на карточке товара
-  environment: |
-    Google Chrome 151.0.7922.138 (Official Build) (64-bit)
-    OC Windows 10
-    Версия сайта https://products-store-v2.hexlet.app/
-  steps-to-reproduce: |
-    1. Открыть сайт
-    2. Посмотреть на любую карточку товара
-    3. Числовое значение перед кнопкой Добавить
-  expected-result: |
-    Числовое значение понятно подписано (например 'В наличии: 33' или 'Остаток')
-  actual-result: |
-    На карточке отображается просто число без пояснения
-
-- summary: |
-    Фильтр цены по-прежнему позволяет указывать отрицательные и дробные значения
-  environment: |
-    Google Chrome 151.0.7922.138 (Official Build) (64-bit)
-    OC Windows 10
-    Версия сайта https://products-store-v2.hexlet.app/
-  steps-to-reproduce: |
-    1. Открыть сайт
-    2. Посмотреть фильтр по цене
-  expected-result: |
-    Фильтр цены позволяет указывать только корректные положительные значения.
-  actual-result: |
-    В фильтре цены по-прежнему позволяет указывать отрицательные и дробные значения
-    Скриншоты: negative-prices-in-filters.png
-
-- summary: |
-    Названия категорий и описания товаров по-прежнему не переводятся
-  environment: |
-    Google Chrome 151.0.7922.138 (Official Build) (64-bit)
-    OC Windows 10
-    Версия сайта https://products-store-v2.hexlet.app/
-  steps-to-reproduce: |
-    1. Открыть сайт
-    2. Переключить язык интерфейса на русский
-    3. Посмотреть названия категорий и описания товаров
-  expected-result: |
-    При смене языка переводится весь интерфейс, включая названия категорий, названия товаров и их описания
-  actual-result: |
-    Названия категорий и описания товаров остаются только на английском
-
-- summary: |
     Иконки языков полностью убраны, остался только текстовый список
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
@@ -215,59 +133,6 @@ bugreports:
     Скриншоты: screenshots/no-language-icon.png
 
 - summary: |
-    В корзине по-прежнему некорректно и противоречиво отображаются цены
-  environment: |
-    Google Chrome 151.0.7922.138 (Official Build) (64-bit)
-    OC Windows 10
-    Версия сайта https://products-store-v2.hexlet.app/
-  steps-to-reproduce: |
-    1. Открыть сайт
-    2. Добавить товар со скидкой в корзину
-    3. Открыть корзину
-    4. Посмотреть цену за единицу, сумму по позиции и итоговую сумму
-  expected-result: |
-    Все цены в корзине отображаются последовательно и понятно
-    Итоговая сумма должна логично складываться из указанных цен товаров
-  actual-result: |
-    Цена за единицу указана без скидки (зачеркнутое число), а итоговая суммы — со скидкой
-    Расчет итоговой суммы остаётся неочевидным
-    Скриншоты: screenshots/mixed-prices.png
-
-- summary: |
-    Процент скидки по-прежнему отображается в числа с плавающей точкой
-  environment: |
-    Google Chrome 151.0.7922.138 (Official Build) (64-bit)
-    OC Windows 10
-    Версия сайта https://products-store-v2.hexlet.app/
-  steps-to-reproduce: |
-    1. Открыть сайт
-    2. Найти товар со скидкой
-    3. Зайти на страницу товара
-    4. Посмотреть отображение процента скидки
-  expected-result: |
-    Скидка показывается как целый процент (например 15%)
-  actual-result: |
-    Процент скидки по-прежнему отображается дробью (например 15.45)
-    Скриншоты: screenshots/float-sale-prices.png
-
-- summary: |
-    Корзина не очищается после успешного оформления заказа
-  environment: |
-    Google Chrome 151.0.7922.138 (Official Build) (64-bit)
-    OC Windows 10
-    Версия сайта https://products-store-v2.hexlet.app/
-  steps-to-reproduce: |
-    1. Открыть сайт
-    2. Добавить товары в корзину
-    3. Перейти в корзину и нажать Оформить заказ / Checkout
-    4. Закрыть окно оформления
-    5. Посмотреть содержимое корзины и счётчик на иконке
-  expected-result: |
-    После успешного оформления заказа корзина должна очищаться
-  actual-result: |
-    Товары остаются в корзине, счётчик на иконке не сбрасывается
-
-- summary: |
     Некорректное округление итоговой суммы в корзине при нескольких товарах со скидкой
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
@@ -281,22 +146,6 @@ bugreports:
     Итоговая сумма рассчитывается точно (8.96 + 16.36 = 25.32)
   actual-result: |
     Сумма округляется некорректно (товары с ценой 8.96 и 16.36 сумма отображается 25.33)
-
-- summary: |
-    После клика В корзину / Add to cart клавиши Space и Enter продолжают добавлять товар
-  environment: |
-    Google Chrome 151.0.7922.138 (Official Build) (64-bit)
-    OC Windows 10
-    Версия сайта https://products-store-v2.hexlet.app/
-  steps-to-reproduce: |
-    1. Открыть сайт
-    2. Нажать мышкой кнопку Add to cart на любом товаре
-    3. Не кликая в другое место, нажать Space или Enter на клавиатуре
-  expected-result: |
-    После клика фокус не должен оставаться на кнопке, либо повторное нажатие Space/Enter не должно добавлять товар
-  actual-result: |
-    Фокус остаётся на кнопке В корзину/Add to cart
-    Нажатие Space или Enter добавляет товар в корзину по одному
 
 - summary: |
     В фильтрах отображаются пустые значения: пустой чекбокс бренда и пустая строка в категориях
