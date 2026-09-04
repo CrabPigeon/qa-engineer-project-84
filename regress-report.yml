@@ -1,4 +1,5 @@
 ---
+test-cases:
 - summary: "Успешный поиск товара по ключевому слову"
   status: pass
  
