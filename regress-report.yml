@@ -98,25 +98,6 @@ bugreports:
     Скриншоты: screenshots/mobile-nofilters.png
 
 - summary: |
-    На мобильных разрешениях ломается вёрстка корзины
-  environment: |
-    Google Chrome 151.0.7922.138 (Official Build) (64-bit)
-    OC Windows 10
-    Версия сайта https://products-store-v2.hexlet.app/
-    Разрешения: iPhone 16 (393×852), Galaxy S25 (360×780) и другие мобильные
-  steps-to-reproduce: |
-    1. Открыть сайт
-    2. Включить Device Toolbar в DevTools
-    3. Выбрать мобильное разрешение
-    4. Добавить товары в корзину
-    5. Открыть корзину и посмотреть верстку добавленных позиций  товаров
-  expected-result: |
-    Верстка списка добавленных товаров в корзине не ломается
-  actual-result: |
-    На собильных разрешениях ломается верстка добавленных товаров в корзине
-    Скриншоты: screenshots/iphone-resolution-cart.png, screenshots/Samsung-resolution-kart.png
-
-- summary: |
     Иконки языков полностью убраны, остался только текстовый список
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
