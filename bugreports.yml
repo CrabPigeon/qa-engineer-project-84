@@ -20,7 +20,8 @@
     - карточки товаров не помещаются одновременно с панелью и уезжают вниз за пределы видимой области
     Скриншоты: screenshots/Samsung-resolution.png, screenshots/iphone-resolution.png
 
-- summary: | На мобильных разрешениях ломается вёрстка корзины
+- summary: | 
+    На мобильных разрешениях ломается вёрстка корзины
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
