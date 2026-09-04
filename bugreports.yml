@@ -40,7 +40,7 @@
     Скриншоты: screenshots/iphone-resolution-cart.png, screenshots/Samsung-resolution-kart.png
     
 - summary: |
-    При оформлении заказа в консоли появляется ошибка HTTP 500
+    При оформлении заказа не переходит на страницу оплаты, в консоли появляется ошибка HTTP 500
   environment: |
     Google Chrome 151.0.7922.138 (Official Build) (64-bit)
     OC Windows 10
@@ -52,10 +52,10 @@
     4. Нажать кнопку Оформить заказ / Checkout
     5. Открыть DevTools - Console
   expected-result: |
-    Заказ оформляется без ошибок
-    В консоли отсутствуют ошибки выполнения скриптов и HTTP запросов.
-    Появляется модальное окно с сообщением об успешном оформлении заказа
+    Происходит переход на страницу оплаты
+    В консоли отсутствуют ошибки выполнения скриптов и HTTP запросов
   actual-result: |
+    Страница оплаты не открывается.
     Появляется модальное окно Заказ успешно оформлен / Order placed successfully
     В консоли DevTools отображается ошибка: XHR POST https://products-store-v2.hexlet.app/api/orders [HTTP/2 500 150ms]
     Скриншоты: screenshots/post-500.png
