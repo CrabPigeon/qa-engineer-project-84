@@ -69,4 +69,4 @@
   status: fail
 
 - summary: "Закрытие окна оформления заказа"
-  status: pass
+  status: fail
