@@ -95,7 +95,7 @@ bugreports:
       На мобильных разрешениях полностью исчезла панель фильтров и категорий
       На iPhone (390px) вёрстка каталога и корзины в целом стала лучше
       На Samsung (360px) поехала вёрстка корзины
-      Скриншоты: screenshots/mobile-nofilters.png
+      Скриншоты: https://github.com/CrabPigeon/qa-engineer-project-84/blob/main/screenshots/mobile-nofilters.png
   
   - summary: |
       Иконки языков полностью убраны, остался только текстовый список
@@ -111,7 +111,7 @@ bugreports:
     actual-result: |
       Иконки языков полностью отсутствуют
       Отображается только текстовый список языков без визуальных обозначений
-      Скриншоты: screenshots/no-language-icon.png
+      Скриншоты: https://github.com/CrabPigeon/qa-engineer-project-84/blob/main/screenshots/no-language-icon.png
   
   - summary: |
       В фильтрах отображаются пустые значения: пустой чекбокс бренда и пустая строка в категориях
@@ -129,7 +129,7 @@ bugreports:
     actual-result: |
       В списке брендов по-прежнему есть пустой чекбокс
       В списке категорий появилась пустая строка
-      Скриншоты: screenshots/empty-checkbox-and-category-in-filters.png
+      Скриншоты: https://github.com/CrabPigeon/qa-engineer-project-84/blob/main/screenshots/empty-checkbox-and-category-in-filters.png
   
   - summary: |
       Кнопка Магазин / Store вызывает полную перезагрузку страницы
