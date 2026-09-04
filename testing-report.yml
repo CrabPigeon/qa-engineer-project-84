@@ -48,7 +48,7 @@
   status: pass
 
 - summary: "Отображение информации на странице товара"
-  status: fail
+  status: pass
 
 - summary: "Отображение информации на карточке товара в каталоге"
   status: fail
