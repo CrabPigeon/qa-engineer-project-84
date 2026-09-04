@@ -18,7 +18,9 @@
     На мобильных разрешениях ломается вёрстка:
     - в панели с поиском, фильтрами и категориями не влезает текст
     - карточки товаров не помещаются одновременно с панелью и уезжают вниз за пределы видимой области
-    Скриншоты: screenshots/Samsung-resolution.png, screenshots/iphone-resolution.png
+    Скриншоты: 
+    - https://github.com/CrabPigeon/qa-engineer-project-84/blob/main/screenshots/Samsung-resolution.png
+    - https://github.com/CrabPigeon/qa-engineer-project-84/blob/main/screenshots/iphone-resolution.png
 
 - summary: | 
     На мобильных разрешениях ломается вёрстка корзины
@@ -37,7 +39,9 @@
     Верстка списка добавленных товаров в корзине не ломается
   actual-result: |
     На собильных разрешениях ломается верстка добавленных товаров в корзине
-    Скриншоты: screenshots/iphone-resolution-cart.png, screenshots/Samsung-resolution-kart.png
+    Скриншоты: 
+    - https://github.com/CrabPigeon/qa-engineer-project-84/blob/main/screenshots/iphone-resolution-cart.png
+    , https://github.com/CrabPigeon/qa-engineer-project-84/blob/main/screenshots/Samsung-resolution-kart.png
     
 - summary: |
     При оформлении заказа не переходит на страницу оплаты, в консоли появляется ошибка HTTP 500
@@ -58,7 +62,7 @@
     Страница оплаты не открывается.
     Появляется модальное окно Заказ успешно оформлен / Order placed successfully
     В консоли DevTools отображается ошибка: XHR POST https://products-store-v2.hexlet.app/api/orders [HTTP/2 500 150ms]
-    Скриншоты: screenshots/post-500.png
+    Скриншоты: https://github.com/CrabPigeon/qa-engineer-project-84/blob/main/screenshots/post-500.png
 
 - summary: |
     При переключении страниц каталога изменяется содержимое фильтров категорий и брендов
@@ -104,7 +108,7 @@
     Возможно ввести только целые положительные значения в разумном диапозоне
   actual-result: |
     Фильтр цены позволяет вводить отрицательные и дробные значения
-    Скриншоты: negative-prices-in-filters.png
+    Скриншоты: https://github.com/CrabPigeon/qa-engineer-project-84/blob/main/screenshots/negative-prices-in-filters.png
 
 - summary: |
     При применении фильтров каталог содержит пустые страницы
@@ -120,7 +124,7 @@
     В каталоге отсутствуют пустые страницы
   actual-result: |
     При применеии фильтров каталог содержит пустые страницы
-    Скриншоты: screenshots/empty-pages.png
+    Скриншоты: https://github.com/CrabPigeon/qa-engineer-project-84/blob/main/screenshots/empty-pages.png
 
 - summary: |
     При смене языка на русский и испанский не переводятся названия категорий и описания товаров
@@ -168,7 +172,7 @@
   actual-result: |
     Цена за единицу указана без скидки (зачеркнутое число), а итоговая суммы — со скидкой
     Расчет итоговой суммы остаётся неочевидным
-    Скриншоты: screenshots/mixed-prices.png
+    Скриншоты: https://github.com/CrabPigeon/qa-engineer-project-84/blob/main/screenshots/mixed-prices.png
 
 - summary: |
     Процент скидки на странице товара отображается в виде числа с плавающей точкой
@@ -183,7 +187,7 @@
     Процент скидки показывается как целый процент
   actual-result: |
     Процент скидки отображается в виде числа с плавающей точкой
-    Скриншоты: screenshots/float-sale-prices.png
+    Скриншоты: https://github.com/CrabPigeon/qa-engineer-project-84/blob/main/screenshots/float-sale-prices.png
 
 - summary: |
     Ссылка на категорию на странице товара не работает
@@ -261,7 +265,7 @@
     Пустых пунктов нет.
   actual-result: |
     В списке брендов присутствует пустой чекбокс без названия.
-    Скриншоты: screenshots/empty-checkbox-in-filters.png
+    Скриншоты: https://github.com/CrabPigeon/qa-engineer-project-84/blob/main/screenshots/empty-checkbox-in-filters.png
 
 - summary: |
     Фильтр по цене не находит товар ни по цене без скидки, ни по цене со скидкой
